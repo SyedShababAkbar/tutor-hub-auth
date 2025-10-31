@@ -27,7 +27,7 @@ const Index = () => {
           <Button 
             size="lg" 
             variant="outline"
-            onClick={() => navigate('/auth?type=student')}
+            onClick={() => navigate('/tuition-request')}
             className="px-8"
           >
             Find a Tutor

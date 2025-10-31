@@ -35,6 +35,60 @@ export type Database = {
         }
         Relationships: []
       }
+      tuition_requests: {
+        Row: {
+          additional_comment: string | null
+          area: string
+          board: string | null
+          city: string
+          class: string
+          created_at: string
+          id: string
+          mode_of_tuition: string
+          name: string
+          phone: string
+          preferred_gender: string | null
+          school_institution: string | null
+          status: string
+          subject_course: string
+          updated_at: string
+        }
+        Insert: {
+          additional_comment?: string | null
+          area: string
+          board?: string | null
+          city: string
+          class: string
+          created_at?: string
+          id?: string
+          mode_of_tuition: string
+          name: string
+          phone: string
+          preferred_gender?: string | null
+          school_institution?: string | null
+          status?: string
+          subject_course: string
+          updated_at?: string
+        }
+        Update: {
+          additional_comment?: string | null
+          area?: string
+          board?: string | null
+          city?: string
+          class?: string
+          created_at?: string
+          id?: string
+          mode_of_tuition?: string
+          name?: string
+          phone?: string
+          preferred_gender?: string | null
+          school_institution?: string | null
+          status?: string
+          subject_course?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
       tutors: {
         Row: {
           address: string
